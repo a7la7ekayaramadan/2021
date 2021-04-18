@@ -226,3 +226,7 @@ $.fn.a7la7ekayatabSlider = function(settings) {
 		
 	});
 };
+
+$().ready(function() {$('#a7la7ekayatab-slider-1').a7la7ekayatabSlider({dynamicArrows: false});});
+jQuery(document).ready(function($){$("#2_tab").click(function(){$.post('a7la7ekaya_tabs.php',{ op:"data",tabid: "2",type: "thread",s : "",securitytoken: "guest",forumdisplay: "0"},function(data){$('#respone_2').html(data);});});if($("#2_tab").hasClass("current")){$.post('a7la7ekaya_tabs.php',{ op:"data",tabid: "2",type: "thread",s : "",securitytoken: "guest",forumdisplay: "0"}, function(data){$('#respone_2').html(data);});}});
+jQuery(document).ready(function($){$("#6_tab").click(function(){$.post('a7la7ekaya_tabs.php',{ op:"data",tabid: "6",type: "forums",s : "",securitytoken: "guest",forumdisplay: "0"},function(data){$('#respone_6').html(data);});});if($("#6_tab").hasClass("current")){$.post('a7la7ekaya_tabs.php',{ op:"data",tabid: "6",type: "forums",s : "",securitytoken: "guest",forumdisplay: "0"}, function(data){$('#respone_6').html(data);});}});
