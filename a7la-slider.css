@@ -1,0 +1,229 @@
+﻿/* Insignificant stuff, for demo purposes */
+	.panel h2.title { margin-bottom: 10px; display:none; }
+	noscript div { background: #ccc; border: 1px solid #900; margin: 20px 0; padding: 15px }	
+	/* Tab nav */
+	.a7la7ekayatab-nav ul li a.current {  }
+	.a7la7ekayatab-nav ul {padding:0; margin:0; list-style:none;}
+	
+	/* Panel padding */
+	.a7la7ekayatab-slider .panel-wrapper { padding: 20px }
+	
+	/* Preloader */
+	.a7la7ekayatab-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.a7la7ekayatab-nav ul { clear: both; display: block; margin: auto; overflow: hidden; padding:0; }
+	.a7la7ekayatab-nav ul li { float:right }
+	.a7la7ekayatab-nav ul li a {  }
+	
+	/* Miscellaneous */
+	.a7la7ekayatab-slider-wrapper { clear: both; overflow: auto }
+	.a7la7ekayatab-slider { overflow: hidden; direction:ltr; width:700px; }
+	.a7la7ekayatab-slider .panel { display: none; float: left; direction:rtl; padding:0; margin:0; border:0; background:none; width:700px; height:180px; overflow:hidden; }
+	.a7la7ekayatabcontbg {padding:5px;}
+	.a7la7ekayatab-slider .panel-container { position: relative }
+	.a7la7ekayatab-nav-left, .a7la7ekayatab-nav-right { float: left }
+	.a7la7ekayatab-nav-left a, .a7la7ekayatab-nav-right a { display: block; text-align: center; text-decoration: none }
+	
+/* tabat script */
+.tabsloading {
+	background:url(http://i34.servimg.com/u/f34/18/05/21/89/loadin10.gif) no-repeat top center ;
+	padding:30px 0 0 0;
+	color:#666666;
+	font-size:12px;
+	font-family:tahoma;
+	margin:20px;
+	text-align:center;
+}
+.maintabcontitem {
+        float: right;
+        width: 49.5%;
+		overflow:hidden;
+		height:84px;
+}
+.maintabcontitem h2 {
+        padding: 4px;
+		margin:0px;
+        font-size: 12px;
+        height:16px;
+		overflow:hidden;
+}
+.maintabcontdetails .maintabcontimg {
+        float: right;
+        text-align: center;
+		width:70px;
+		overflow:hidden;
+		padding:5px 0 0 0;
+		height:45px;
+}
+.maintabcontdetails .maintabcontline {
+padding:1px 0;
+height:14px;
+overflow:hidden;
+white-space:nowrap;
+}
+.maintabcontitempading {
+margin:4px 4px 0 0;
+}
+.maintabcontdetailsmore {
+        clear: both;
+}
+.maintabcontdetails {
+overflow:hidden;
+widows:99%;
+}
+.maintabcontdetailslink {
+        padding:3px;
+}
+.maintabcontdetailsimg{
+        text-align:center;
+}
+.maintabcontdetailsmore {
+        padding:4px;
+        margin:1px;
+}
+.a7la7ekayasmall {
+        font-size:10px;
+        font-weight:normal;
+}
+.maintabcont2 {
+float: right;
+width:100%;
+margin-left:-100%;
+}
+.maintabcont2-2 {
+margin-right:80px;
+}
+.content_block {
+margin-bottom:6px;
+padding-bottom:1px;
+padding-left:1px;
+padding-right:1px;
+padding-top:1px;
+}
+.content_block .block_row {
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:1px;
+padding-bottom:6px;
+padding-left:6px;
+padding-right:6px;
+padding-top:6px;
+}
+.content_block .block_title {
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:0;
+padding-bottom:2px;
+padding-left:2px;
+padding-right:2px;
+padding-top:2px;
+font-size:12px;
+}
+.content_block .block_footer {
+margin-bottom:0;
+margin-left:0;
+margin-right:0;
+margin-top:1px;
+padding-bottom:4px;
+padding-left:4px;
+padding-right:4px;
+padding-top:4px;
+text-align:left;
+}
+#a7la17ekaya_tabs .smallfont {
+font-family:verdana,geneva,lucida,'lucida grande',arial,helvetica,sans-serif;
+font-size:11px;
+}
+.usercol {
+width:33%;
+float:right;
+}
+.usercolpadng {
+margin:4px 4px 0 0;
+}
+.statcol {
+width:49.5%;
+float:right;
+}
+.usercol h2.tcat {
+margin: 0px;
+padding: 4px;
+font-weight:normal;
+}
+.statcol h2.tcat {
+margin: 0px;
+padding: 4px;
+font-weight:normal;
+}
+.mainuser-name {
+width:54%;
+display:block;
+float:right;
+overflow:hidden;
+white-space:nowrap;
+}
+.mainuser-des {
+width:44%;
+display:block;
+float:left;
+text-align:center;
+overflow:hidden;
+white-space:nowrap;
+}
+.mainuser-name div, .mainuser-des  div {
+padding: 3px;
+}
+.clear {
+clear:both;
+}
+.a7la7ekaya_slider {
+width: 165px;
+text-align: center;
+}
+.a7la7ekaya_slider img {
+width:130px;
+}
+.attchdetails, .attchdetails2 {
+padding: 1% 0;
+width: 12.4%;
+float:right;
+text-align: center;
+overflow:hidden;
+white-space:nowrap;
+}
+.attchdetails2 {
+font-weight:bold;
+}
+.statdtls .attchdetails, .statdtls .attchdetails2 {
+width: 16.5%;
+}
+.attachwidth, .statdtls {
+width:99%;
+margin: 0 auto;
+}
+.mainuserdetails {
+margin-bottom:1px;
+height:25px;
+overflow:hidden;
+}
+.a7la7ekayaimgstab ul {
+margin:0;
+padding:0;
+list-style:none;
+}
+.a7la7ekayaimgstab li {
+float:right;
+margin-left:10px;
+}
+.a7la7ekayaimgstab img {
+width:150px;
+height:130px;
+}
+
+/* tabat script */
+	
